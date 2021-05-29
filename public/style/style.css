@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial,sans-serif;
+    color: #4C4D52;
+    text-align: center;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column {
+    flex-direction: column;
+}
+
+.main {
+    height: 93vh;
+    padding-top: 7vh;
+    background-color: #F09D8B;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.answerBox {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #4C4D52;
+    border-radius: 5px;
+}
+
+.answerImage {
+    width: 280px;
+}
+
+.imageBtn img {
+    margin: 30px 0;
+    width: 100px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.imageBtn img:hover {
+    transform: scale(1.1);
+}
+
+.pointsBar {
+    width: 300px;
+}
+
+.playBtn {
+    padding: 20px 40px;
+    background-color: #F6F3EA;
+    border: 2px solid #4C4D52;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+.playBtn:hover {
+    background-color: #C4DBD5;
+    cursor: pointer;
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
